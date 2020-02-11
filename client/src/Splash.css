@@ -1,0 +1,24 @@
+.splash-background {
+    position: relative;
+    z-index: 1;
+  }
+  .splash-background:before {
+    content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=7f28db8b6c&attid=0.1&permmsgid=msg-f:1657339309217907501&th=17000d521e39832d&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8RtvAlzUv-OXOfnJJmd5dYwHLZx4rq9_cVJQzrJt7sgkhKLLyFpREWkOaT1LZRwDLCjyntl_hu9S1R7W9T713lYRw2s8zvbEqCl3z1Nq5fgRHmv7f37uSQ4aM&disp=emb&realattid=ii_k63lr7cr0"); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 85vh;
+  }
+
+  .splash-text {
+    color: #97c6d6;
+    text-align: left;
+  }
+  
